@@ -1,5 +1,5 @@
 //App by rodrivas - 2019
-// vers„o 1.3
+// vers√£o 1.3
 
 package com.meuapp.rr.myapplication1;
 
@@ -39,7 +39,7 @@ public class MainActivity extends ActionBarActivity implements Runnable{
 
         final CheckBox check = (CheckBox) findViewById(R.id.checkBox);
         Button button2 = (Button)findViewById(R.id.button2);
-       //Carrega a imagem nuemro 1
+       //Carrega a imagem numero 1
         ImageView image2 = (ImageView)findViewById(R.id.cerva1);
         final ImageView image3 = (ImageView)findViewById(R.id.proibido);
         final TextView textResultado = (TextView) findViewById(R.id.textoResultado);
@@ -53,7 +53,7 @@ public class MainActivity extends ActionBarActivity implements Runnable{
                 boolean concorda = check.isChecked();
                 //Toca campainha ao ao chhcar checkbox
                 if (concorda) {
-                    //agora (v1.3) faz o som de abertura: "abrindo4" e n„o "ding"
+                    //agora (v1.3) faz o som de abertura: "abrindo4" e n√£o "ding"
                     player.start();
                     count++;
                     ImageView img2 = (ImageView) findViewById(R.id.cerva2);
@@ -157,7 +157,7 @@ public class MainActivity extends ActionBarActivity implements Runnable{
     //Desabilita botao voltar
     @Override
     public void onBackPressed() {
-        // n„o chame o super desse mÈtodo
+        // n√£o chame o super desse m√©todo
     }
 
     @Override
